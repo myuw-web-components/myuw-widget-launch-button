@@ -16,7 +16,6 @@ Include the web component as follows:
 <!-- Use the Web Component, probably in the context of a widget card. -->
 <myuw-widget-launch-button
   data-myuw-url="https://enroll.wisc.edu/"
-  data-myuw-open-in-new-tab=true
   data-myuw-text="Launch full app"
   data-myuw-aria-label="Launch Course Search and Enroll"
 ></myuw-widget-launch-button>
@@ -33,10 +32,6 @@ _Note:_ The evergreen "latest" version can be used for convenience, but in produ
 The `data-myuw-url` attribute tells the web component where the link should take the user.
 
 Required.
-
-#### data-myuw-open-in-new-tab
-
-The `data-myuw-open-in-new-tab` attribute tells the web component whether the link should open in the same tab or in a new tab.
 
 #### data-myuw-text
 

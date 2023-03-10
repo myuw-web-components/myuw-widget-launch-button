@@ -12,7 +12,6 @@ class MyUWWidgetLaunchButton extends HTMLElement {
   static get observedAttributes() {
     return [
       'data-myuw-url',
-      'data-myuw-open-in-new-tab',
       'data-myuw-text',
       'data-myuw-aria-label']
   }
@@ -43,7 +42,6 @@ class MyUWWidgetLaunchButton extends HTMLElement {
   connectedCallback() {
     // Get all attributes
     this['data-myuw-url'] = this.getAttribute('data-myuw-url');
-    this['data-myuw-open-in-new-tab']         = this.getAttribute('data-myuw-open-in-new-tab');
     this['data-myuw-text']         = this.getAttribute('data-myuw-text');
     this['data-myuw-aria-label']         = this.getAttribute('data-myuw-aria-label');
 
