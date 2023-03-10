@@ -37,12 +37,15 @@ Required.
 
 The text label for display on the button.
 
+Required.
+
 #### data-myuw-aria-label
 
 Aria label for the button.
 
 This is intended to make the launch button useful for screen reader users navigating by stepping through the hyperlinks on the page. Whereas a label like "Launch full app" does not clarify *which* app will be launched, "Launch Course Search and Enroll" communicates what app the link will launch.
 
+Required.
 
 ## Development and contribution
 
