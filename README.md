@@ -1,5 +1,7 @@
 # myuw-widget-launch-button
 
+**`myuw-widget-launch-button` is not currently maintained.**
+
 Launch button for a MyUW widget. Intended as replacement for the launch-button AngularJS Directive in uportal-app-framework.
 
 This launch button is intended for use as part of a widget card.
